@@ -15,7 +15,7 @@ font-family: 'SuisseIntl', Arial, sans-serif;
 }
 
 .text-cms-ink-10 {
-  color: color-mix(in oklab, var(--colors-black) 10%, transparent);
+  color: color-mix(in oklab, var(--black) 30%, transparent);
 }
 
 h1,
