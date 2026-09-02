@@ -1,3 +1,7 @@
+@import url('/fonts/suisse-intl/fonts.css');
+
+font-family: 'SuisseIntl', Arial, sans-serif;
+
 .text-cms-ink {
   color: #000000;
 }
