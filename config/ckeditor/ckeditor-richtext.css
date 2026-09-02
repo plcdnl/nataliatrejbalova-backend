@@ -3,6 +3,13 @@
 --ck-content-font-family: 'SuisseIntl', Arial, sans-serif;
 font-family: 'SuisseIntl', Arial, sans-serif;
 
+&.ck-content,
+.ck-content {
+  font-family: 'SuisseIntl', Arial, sans-serif !important;
+  font-size: 0.9em !important;
+  font-weight: 600 !important;
+}
+
 .text-cms-ink {
   color: #000000;
 }
