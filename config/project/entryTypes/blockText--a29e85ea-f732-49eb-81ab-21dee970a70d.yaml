@@ -17,6 +17,7 @@ fieldLayouts:
             handle: text
             instructions: null
             label: Text
+            oldFieldUid: a076f078-2739-4840-8245-5e0f696f5a80 # Richtext (Default)
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

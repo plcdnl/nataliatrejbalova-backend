@@ -9,7 +9,8 @@ settings:
   availableTransforms: ''
   availableVolumes: ''
   characterLimit: null
-  css: null
+  css: ".text-cms-ink { color: #000000; }\r\n.text-cms-ink-10 { color: color-mix(in oklab, var(--colors-black) 10%, transparent); }"
+  cssFile: null
   defaultTransform: null
   defaultUploadLocationSubpath: null
   defaultUploadLocationVolume: null
@@ -24,7 +25,8 @@ settings:
   imageEntryTypeUid: null
   imageFieldUid: null
   imageMode: img
-  js: null
+  js: "return {\r\n  style: {\r\n    definitions: [\r\n      {\r\n        name: 'Testo Ink',\r\n        element: 'span',\r\n        classes: ['text-cms-ink'],\r\n      },\r\n      {\r\n        name: 'Testo Ink 10%',\r\n        element: 'span',\r\n        classes: ['text-cms-ink-10'],\r\n      },\r\n    ],\r\n  },\r\n};"
+  jsFile: null
   options: null
   parseEmbeds: false
   purifierConfig: null
@@ -40,6 +42,9 @@ settings:
     - bold
     - italic
     - link
+    - '|'
+    - alignment
+    - style
   wordLimit: null
 translationKeyFormat: null
 translationMethod: site
