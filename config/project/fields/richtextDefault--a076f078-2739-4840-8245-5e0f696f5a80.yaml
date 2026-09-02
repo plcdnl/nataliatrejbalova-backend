@@ -9,8 +9,8 @@ settings:
   availableTransforms: ''
   availableVolumes: ''
   characterLimit: null
-  css: ".text-cms-ink { color: #000000; }\r\n.text-cms-ink-10 { color: color-mix(in oklab, var(--colors-black) 10%, transparent); }"
-  cssFile: null
+  css: null
+  cssFile: ckeditor-richtext.css
   defaultTransform: null
   defaultUploadLocationSubpath: null
   defaultUploadLocationVolume: null
