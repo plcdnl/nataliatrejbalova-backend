@@ -45,7 +45,7 @@ fieldLayouts:
             handle: claim
             instructions: null
             label: Claim
-            oldFieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            oldFieldUid: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -62,7 +62,7 @@ fieldLayouts:
             handle: address
             instructions: null
             label: Address
-            oldFieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            oldFieldUid: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -102,7 +102,7 @@ fieldLayouts:
             handle: additionalInformations
             instructions: null
             label: 'Additional Informations'
-            oldFieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            oldFieldUid: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -141,11 +141,11 @@ handle: about
 hasTitleField: true
 icon: null
 name: About
-showSlugField: true
-showStatusField: true
+showSlugField: false
+showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: null
+titleFormat: about
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 uiLabelFormat: '{title}'

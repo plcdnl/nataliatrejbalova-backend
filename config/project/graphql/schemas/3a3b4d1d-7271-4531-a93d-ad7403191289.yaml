@@ -5,6 +5,7 @@ scope:
   - 'elements.drafts:read'
   - 'elements.revisions:read'
   - 'elements.inactive:read'
+  - 'sections.34bf9cd6-a809-4562-9bf0-b3aabfd7e0f0:read' # About
   - 'sections.6d748250-5d35-4503-9f18-a175d611152c:read' # Header
   - 'sections.04b6f137-04a3-4cd7-a0d3-d10bc18ebb58:read' # Client
   - 'sections.80d089ab-432c-4022-a8bb-6389bed4c95e:read' # Page
