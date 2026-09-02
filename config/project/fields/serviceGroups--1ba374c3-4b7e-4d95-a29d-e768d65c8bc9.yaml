@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: serviceGroups
+instructions: null
+name: 'Service Groups'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 4c1e3d75-af27-403c-8b7c-a6a2f4babe36 # Service Group
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: 4
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

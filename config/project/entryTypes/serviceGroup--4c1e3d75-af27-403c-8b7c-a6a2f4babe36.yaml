@@ -1,0 +1,88 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  2b55417b-dcae-4904-80da-a9cd9acbcfae:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-09-02T14:23:51+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 53966257-fd14-44a1-892c-893285dcb9e0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:26:50+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 69166bbc-3333-46f4-a682-b712a0e4449b # Media (Single)
+            handle: media
+            instructions: null
+            label: Media
+            oldFieldUid: 69166bbc-3333-46f4-a682-b712a0e4449b # Media (Single)
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f141c27-3c4d-4e48-8db4-cabd84d204da
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:26:50+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: ba2a1d1a-c21e-4cad-b8e2-4ff1c9efbea4 # Service Group Items
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1aa28f6e-e66a-49e4-8e29-9259511411bb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d6143b12-dee5-4b9a-b831-e408bb88cbcd
+        userCondition: null
+    thumbFieldKey: null
+handle: serviceGroup
+hasTitleField: true
+icon: null
+name: 'Service Group'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

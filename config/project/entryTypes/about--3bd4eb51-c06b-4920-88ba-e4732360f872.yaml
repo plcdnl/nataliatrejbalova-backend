@@ -1,0 +1,151 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  ce685613-3703-44b0-bf8d-f2190c022676:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-09-02T14:20:23+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 34aed164-1a20-4ca7-80ae-f547b2ba5822
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:23:07+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            handle: claim
+            instructions: null
+            label: Claim
+            oldFieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5c8a77c-74b2-4f3e-bbd0-8817e9f2504d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:23:07+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            handle: address
+            instructions: null
+            label: Address
+            oldFieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4d9a53b9-ec74-421d-8023-b632c4490c7f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 40248d71-3199-4f14-9291-69f35e2ccbca
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-09-02T14:28:58+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: ddbe5081-9170-418f-9c3f-9c1e9113d393 # Informations
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55edee90-6da2-4dd9-a969-631391ea3ffa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:23:07+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            handle: additionalInformations
+            instructions: null
+            label: 'Additional Informations'
+            oldFieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c2340942-ab7f-4543-92e4-9ab84022c087
+            userCondition: null
+            warning: null
+            width: 100
+        name: Informations
+        uid: 4672d352-d92c-4224-80f0-5b40cee30bad
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-09-02T14:28:58+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 1ba374c3-4b7e-4d95-a29d-e768d65c8bc9 # Service Groups
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 69292c9f-fd70-4f41-904f-f5c4f3378209
+            userCondition: null
+            warning: null
+            width: 100
+        name: Services
+        uid: e933ad7e-d3dc-4ba0-8cba-442e9108a2ed
+        userCondition: null
+    thumbFieldKey: null
+handle: about
+hasTitleField: true
+icon: null
+name: About
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

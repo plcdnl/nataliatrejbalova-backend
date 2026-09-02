@@ -1,0 +1,71 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  62216c9c-00bc-474a-a5c6-13d2f9f4f2b5:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-09-02T14:26:28+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e734c1c8-4593-4027-8ce6-83192c80bff7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:26:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: c254dc8a-356e-47cd-bf4d-29fd2f54607c # Link (No Label)
+            handle: customLink
+            instructions: null
+            label: Link
+            oldFieldUid: c254dc8a-356e-47cd-bf4d-29fd2f54607c # Link (No Label)
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b6fad48-4208-471c-9178-8397f1118265
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: cd4f9dc5-f119-4af6-9225-070fabd96aa1
+        userCondition: null
+    thumbFieldKey: null
+handle: serviceGroupItem
+hasTitleField: true
+icon: null
+name: 'Service Group Item'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

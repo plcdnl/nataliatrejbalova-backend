@@ -1,4 +1,4 @@
-dateModified: 1788357930
+dateModified: 1788359360
 elementSources:
   craft\elements\Entry:
     -
@@ -94,13 +94,17 @@ fs:
 meta:
   __names__:
     1adcfabb-e17a-437d-a8f2-0befd7118906: Blocks # Blocks
+    1ba374c3-4b7e-4d95-a29d-e768d65c8bc9: 'Service Groups' # Service Groups
     2ac6d8c8-e836-407c-ba99-1ddb8b3f9a42: 'Media (Multiple)' # Media (Multiple)
     2b5a8468-f61b-472b-9af7-8231dab67ab0: 'Work Category' # Work Category
     2bb851df-0e97-491d-9095-3d5530268ab1: 'Media Ratio Height' # Media Ratio Height
     3a3b4d1d-7271-4531-a93d-ad7403191289: 'Public Schema' # Public Schema
+    3bd4eb51-c06b-4920-88ba-e4732360f872: About # About
     3cd142ad-49e9-427e-87f7-b6f37e1af87a: Links # Links
     3eda00f1-ab29-4f8e-8321-fb802df98249: 'Richtext (Simple)' # Richtext (Simple)
     04b6f137-04a3-4cd7-a0d3-d10bc18ebb58: Client # Client
+    4c1e3d75-af27-403c-8b7c-a6a2f4babe36: 'Service Group' # Service Group
+    4d4e989d-8050-4e38-8f2d-19ee0e5f97c3: Information # Information
     4ea61609-bde4-40e7-8cf5-12a8cb07bd7c: Link # Link
     4f41e2ba-3b70-42ff-b5e1-52ff2e319c14: 'Related Works' # Related Works
     5b488c3a-b807-486d-b8cc-5f3ae00a4331: 'Work Category' # Work Category
@@ -129,6 +133,7 @@ meta:
     69166bbc-3333-46f4-a682-b712a0e4449b: 'Media (Single)' # Media (Single)
     86266eea-aa78-4ad3-98df-d7878d0f40ce: Service # Service
     105659e8-6d0e-4387-9ba7-5c41bc21344f: Work # Work
+    15480826-96ee-452c-9edc-5dc2312e4c86: 'Service Group Item' # Service Group Item
     a076f078-2739-4840-8245-5e0f696f5a80: 'Richtext (Default)' # Richtext (Default)
     a5ffc7e5-121e-4322-98b2-bc5ab27e5f02: SEO # SEO
     a7e7e560-d521-4234-943e-51c68b95fd19: 'String (No Translate)' # String (No Translate)
@@ -136,6 +141,7 @@ meta:
     a73e3646-094b-4190-b738-4b92d5ac9c8b: 'Column Block Text' # Column Block Text
     aca48e26-bc6a-447c-bc26-6e4a5ab52c8f: Columns # Columns
     b9288759-745b-463c-9055-d14d54e4187b: 'Media Orientation' # Media Orientation
+    ba2a1d1a-c21e-4cad-b8e2-4ff1c9efbea4: 'Service Group Items' # Service Group Items
     bbe52cbf-36a0-4bd0-b11b-1f6d65894849: Media # Media
     be0b8859-ebca-4e6f-a733-3ca2d99f0823: Credits # Credits
     c254dc8a-356e-47cd-bf4d-29fd2f54607c: 'Link (No Label)' # Link (No Label)
@@ -146,6 +152,7 @@ meta:
     d858881b-5b02-44b3-a35e-fa097566e273: 'Average Color' # Average Color
     da43da82-2ba3-47a6-bb3f-a98feac55db8: Color # Color
     dc3b347a-fc23-4941-828a-f44923516ffc: 'Block Media' # Block Media
+    ddbe5081-9170-418f-9c3f-9c1e9113d393: Informations # Informations
     e7e8ee26-a730-4131-b0b0-d5e0eed7a9fa: 'Org Schema' # Org Schema
     f089cf90-4035-42b1-8af1-c323a5771f3c: 'Media Ratio (Landscape)' # Media Ratio (Landscape)
     f3c778fb-f808-455e-a6dd-aa0a3856c3e7: 'Column Blocks' # Column Blocks
