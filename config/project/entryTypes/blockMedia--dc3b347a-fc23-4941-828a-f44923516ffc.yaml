@@ -1,0 +1,620 @@
+allowLineBreaksInTitles: false
+color: violet
+description: null
+fieldLayouts:
+  61ce7a71-db52-433f-aa10-af8fa9c04660:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-06-04T19:10:19+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 2ac6d8c8-e836-407c-ba99-1ddb8b3f9a42 # Media (Multiple)
+            handle: media
+            instructions: null
+            label: Media
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ac31014-8f36-4a94-849f-359e128ab0ac
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-05-12T16:10:16+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+            handle: showCaption
+            instructions: null
+            label: 'Show caption'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f70a113b-43e5-4733-bbc6-4349d22b9120
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: e6574d53-d4fb-47f5-941f-1668ce772a4b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+            handle: mediaRatioMobileEnabled
+            instructions: null
+            label: 'Customize for mobile'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            elementCondition: null
+            heading: Desktop
+            type: craft\fieldlayoutelements\Heading
+            uid: 2a07a03d-36d3-496a-a1af-b20dca5bd257
+            userCondition: null
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+            handle: mediaOrientation
+            instructions: null
+            label: Orientation
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-04T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+                  operator: in
+                  uid: 8756fc79-b198-462b-8e69-02d3d987ec7e
+                  values:
+                    - portrait
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 520f61ac-dd50-4d34-a214-8b64226d122a # Media Ratio
+            handle: mediaRatio
+            instructions: null
+            label: Ratio
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fcd8344c-34e1-4bee-b986-a0bfec703f5c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+                  operator: in
+                  uid: 92adc8ff-ed16-48eb-ace5-035d2a40d61e
+                  values:
+                    - landscape
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: f089cf90-4035-42b1-8af1-c323a5771f3c # Media Ratio (Landscape)
+            handle: mediaRatioLandscape
+            instructions: null
+            label: Ratio
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5de04c6f-5126-48de-b131-a49691246203
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+                  operator: in
+                  uid: b25c698b-5e04-408e-ae38-28818bfbda88
+                  values:
+                    - portrait
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 520f61ac-dd50-4d34-a214-8b64226d122a # Media Ratio
+                  layoutElementUid: fcd8344c-34e1-4bee-b986-a0bfec703f5c
+                  operator: in
+                  uid: f19a9690-0862-48f6-bc6d-fe77e0a8e249
+                  values:
+                    - freeform
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 48a32b36-242b-456d-94f5-087908123d76 # Media Ratio Width
+            handle: mediaRatioCustomW
+            instructions: null
+            label: Width
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd918c68-826c-4a23-ba2d-744172454f0a
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+                  operator: in
+                  uid: 9365dc8a-612c-44c0-8c09-115f8abbe789
+                  values:
+                    - portrait
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 520f61ac-dd50-4d34-a214-8b64226d122a # Media Ratio
+                  layoutElementUid: fcd8344c-34e1-4bee-b986-a0bfec703f5c
+                  operator: in
+                  uid: 3d28e235-d4aa-4228-8dff-44b1e3be9ce4
+                  values:
+                    - freeform
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 2bb851df-0e97-491d-9095-3d5530268ab1 # Media Ratio Height
+            handle: mediaRatioCustomH
+            instructions: null
+            label: Height
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7e006303-a8de-4c31-a59b-34014de8e94a
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+                  operator: in
+                  uid: 8f870d12-b61e-479f-bcfc-470c68db0bf0
+                  values:
+                    - landscape
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: f089cf90-4035-42b1-8af1-c323a5771f3c # Media Ratio (Landscape)
+                  layoutElementUid: 5de04c6f-5126-48de-b131-a49691246203
+                  operator: in
+                  uid: c18e8f1f-da3b-4630-a03c-5150c8aa8485
+                  values:
+                    - freeform
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 48a32b36-242b-456d-94f5-087908123d76 # Media Ratio Width
+            handle: mediaRatioLandscapeCustomW
+            instructions: null
+            label: Width
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e1c883d-fb05-4db7-bcf2-046275d20a3d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 1bbe1cf0-dc28-4958-bbbe-d9339ee27243
+                  operator: in
+                  uid: 0e2daa7c-db15-4209-8604-c094d21156b5
+                  values:
+                    - landscape
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: f089cf90-4035-42b1-8af1-c323a5771f3c # Media Ratio (Landscape)
+                  layoutElementUid: 5de04c6f-5126-48de-b131-a49691246203
+                  operator: in
+                  uid: abbe3f08-5485-413b-98a1-317e0edd5dcb
+                  values:
+                    - freeform
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 2bb851df-0e97-491d-9095-3d5530268ab1 # Media Ratio Height
+            handle: mediaRatioLandscapeCustomH
+            instructions: null
+            label: Height
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99d4794a-6666-449f-9272-3ecb6c597525
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: b8f20c49-694a-478f-a243-8a1d183ad28e
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            heading: Mobile
+            type: craft\fieldlayoutelements\Heading
+            uid: 403d6e48-217e-4f4d-b852-5ab16095d402
+            userCondition: null
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: 1a2b3c4d-5e6f-7890-abcd-ef1234567890
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+            handle: mediaOrientationMobile
+            instructions: null
+            label: Orientation
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-04T23:40:58+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+                  operator: in
+                  uid: 26229093-ee0a-4558-ae60-6feabb198117
+                  values:
+                    - portrait
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: 22b331d4-33b9-4c6e-837a-58045496f186
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 520f61ac-dd50-4d34-a214-8b64226d122a # Media Ratio
+            handle: mediaRatioMobile
+            instructions: null
+            label: Ratio
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 048fb289-a157-4d4f-af11-536ecce3ab51
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+                  operator: in
+                  uid: 89b3f02d-ff15-4a28-9e4e-bff10620d18d
+                  values:
+                    - landscape
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: a21f4759-d179-4ef5-88db-802d75564ae8
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: f089cf90-4035-42b1-8af1-c323a5771f3c # Media Ratio (Landscape)
+            handle: mediaRatioMobileLandscape
+            instructions: null
+            label: Ratio
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 813e2d2f-eb7e-4cb5-9491-a67c3635ee69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+                  operator: in
+                  uid: 35314d92-7b8a-4231-876e-a88dabd7b7da
+                  values:
+                    - portrait
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 520f61ac-dd50-4d34-a214-8b64226d122a # Media Ratio
+                  layoutElementUid: 048fb289-a157-4d4f-af11-536ecce3ab51
+                  operator: in
+                  uid: aaa773ef-4713-4b71-934d-f8c484ae5266
+                  values:
+                    - freeform
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: 8db6fe19-20e6-413b-beef-bea4e89879fe
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 48a32b36-242b-456d-94f5-087908123d76 # Media Ratio Width
+            handle: mediaRatioMobileCustomW
+            instructions: null
+            label: Width
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 734063aa-cf0b-4b58-9911-701b3b927172
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+                  operator: in
+                  uid: 5a06fbfb-ebc2-42db-8594-8404630a7e55
+                  values:
+                    - portrait
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: 520f61ac-dd50-4d34-a214-8b64226d122a # Media Ratio
+                  layoutElementUid: 048fb289-a157-4d4f-af11-536ecce3ab51
+                  operator: in
+                  uid: b269905f-cff9-4d03-8ad8-561ce3bf1c97
+                  values:
+                    - freeform
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: fe017190-ba5d-4fc9-8de9-a80790696cd8
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 2bb851df-0e97-491d-9095-3d5530268ab1 # Media Ratio Height
+            handle: mediaRatioMobileCustomH
+            instructions: null
+            label: Height
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac1df82a-2fa3-4528-81ca-6cf9241d6744
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+                  operator: in
+                  uid: d6ba4619-a0d0-4c98-bdc8-fc667f1ce72f
+                  values:
+                    - landscape
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: f089cf90-4035-42b1-8af1-c323a5771f3c # Media Ratio (Landscape)
+                  layoutElementUid: 813e2d2f-eb7e-4cb5-9491-a67c3635ee69
+                  operator: in
+                  uid: fbd4250b-136a-4940-92e9-143733f42656
+                  values:
+                    - freeform
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: b8a4cc5a-63b3-40c1-a644-cdb26ad07864
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 48a32b36-242b-456d-94f5-087908123d76 # Media Ratio Width
+            handle: mediaRatioMobileLandscapeCustomW
+            instructions: null
+            label: Width
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94f41798-183e-4c03-9bc4-9029ee58ee0f
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: b9288759-745b-463c-9055-d14d54e4187b # Media Orientation
+                  layoutElementUid: 35dfdf29-ebb2-419a-9484-1726f98dbaad
+                  operator: in
+                  uid: eddc96d2-eca1-4085-ac55-58f48f12b9a9
+                  values:
+                    - landscape
+                -
+                  class: craft\fields\conditions\OptionsFieldConditionRule
+                  fieldUid: f089cf90-4035-42b1-8af1-c323a5771f3c # Media Ratio (Landscape)
+                  layoutElementUid: 813e2d2f-eb7e-4cb5-9491-a67c3635ee69
+                  operator: in
+                  uid: b3a88e20-42dd-47e6-b5f5-2d969c132580
+                  values:
+                    - freeform
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+                  layoutElementUid: e7d92bd1-6992-46fc-a564-2b48ab5f4757
+                  uid: 017b9ce0-284f-4d90-9baa-3f36cea13241
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            elementEditCondition: null
+            fieldUid: 2bb851df-0e97-491d-9095-3d5530268ab1 # Media Ratio Height
+            handle: mediaRatioMobileLandscapeCustomH
+            instructions: null
+            label: Height
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c6d84e41-722d-4ce4-9c13-77fa401f1ef1
+            userCondition: null
+            warning: null
+            width: 50
+        name: Crop
+        uid: 72e41d09-fd2e-4525-97ae-52b743f2fc68
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+            handle: autoplay
+            instructions: null
+            label: Autoplay
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4b5bc7ff-d2ca-43e8-acc2-4620951f7583
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-06-05T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7979ba0b-7bd7-43d2-80e0-023e830fdd2a # Boolean (False)
+            handle: controls
+            instructions: null
+            label: Controls
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86c2389c-e1fa-46df-9395-9851b64b9169
+            userCondition: null
+            warning: null
+            width: 50
+        name: 'Video Options'
+        uid: ddda005a-b43e-4321-82b5-6ddd443c84a9
+        userCondition: null
+    thumbFieldKey: null
+handle: blockMedia
+hasTitleField: false
+icon: null
+name: 'Block Media'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: Media
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

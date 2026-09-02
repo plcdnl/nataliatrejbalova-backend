@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: columns
+instructions: 'To create an empty column, add a new entry without any blocks inside it.'
+name: Columns
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 052a9d45-cfb8-42fd-907e-3d8c6a5af541 # Column Blocks
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards-grid
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

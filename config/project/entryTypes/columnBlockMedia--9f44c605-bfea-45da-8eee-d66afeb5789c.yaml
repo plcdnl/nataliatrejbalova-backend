@@ -1,0 +1,42 @@
+allowLineBreaksInTitles: false
+color: orange
+description: null
+fieldLayouts:
+  42eb5e58-2cd1-4274-ab45-b5b6174a5ff1:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-05T09:27:52+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 2ac6d8c8-e836-407c-ba99-1ddb8b3f9a42 # Media (Multiple)
+            handle: media
+            instructions: null
+            label: Media
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a51b1a6-09d9-41f3-a7c3-107f1443c71b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5c3fe4e3-99cf-475f-b9ca-5b330e444153
+        userCondition: null
+    thumbFieldKey: null
+handle: columnBlockMedia
+hasTitleField: false
+icon: null
+name: 'Column Block Media'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: "{media.title | default('Media Block')}"
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: richtextSimple
+instructions: null
+name: 'Richtext (Simple)'
+searchable: false
+settings:
+  advancedLinkFields:
+    - target
+  availableTransforms: ''
+  availableVolumes: ''
+  characterLimit: null
+  css: null
+  defaultTransform: null
+  defaultUploadLocationSubpath: null
+  defaultUploadLocationVolume: null
+  fullGraphqlData: false
+  headingLevels: false
+  imageEntryTypeUid: null
+  imageFieldUid: null
+  imageMode: img
+  js: null
+  options: null
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups: null
+  toolbar:
+    - bold
+    - italic
+    - link
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\ckeditor\Field

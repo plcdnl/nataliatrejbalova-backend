@@ -1,0 +1,61 @@
+services:
+  web:
+    image: craftcms-web:local
+    build:
+      context: .
+      dockerfile: ./.coolify/Dockerfile
+      target: web
+      args:
+        - php_version=8.4
+    environment:
+      CRAFT_BACKEND_URL: ${CRAFT_BACKEND_URL:-${SERVICE_URL_WEB}}
+    volumes:
+      - uploads_data:/app/web/uploads
+      - storage_data:/app/storage
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:8080/healthcheck"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 10s
+
+  worker:
+    image: craftcms-worker:local
+    build:
+      context: .
+      dockerfile: ./.coolify/Dockerfile
+      target: worker
+      args:
+        - php_version=8.4
+    restart: unless-stopped
+    volumes:
+      - uploads_data:/app/web/uploads
+      - storage_data:/app/storage
+    healthcheck:
+      test: ["CMD", "pgrep", "-f", "queue/listen"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 10s
+
+  # Use COMPOSE_PROFILES=local-db as an environment variable to enable this service
+  db:
+    profiles: ["local-db"]
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: db
+      MYSQL_USER: db
+      MYSQL_PASSWORD: db
+      MYSQL_ROOT_PASSWORD: db
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 1s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  db_data:
+  uploads_data:
+  storage_data:

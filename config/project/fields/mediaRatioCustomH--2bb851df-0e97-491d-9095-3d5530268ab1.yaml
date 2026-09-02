@@ -1,0 +1,15 @@
+columnSuffix: null
+handle: mediaRatioCustomH
+instructions: null
+name: 'Media Ratio Height'
+searchable: false
+settings:
+  decimals: 0
+  max: null
+  min: 1
+  prefix: null
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

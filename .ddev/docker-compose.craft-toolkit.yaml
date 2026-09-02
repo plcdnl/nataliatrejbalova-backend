@@ -1,0 +1,4 @@
+services:
+  web:
+    volumes:
+      - "../../craft-toolkit:/var/www/craft-toolkit"

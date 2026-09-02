@@ -1,0 +1,248 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  458d740e-5ee0-4029-b2fe-d560e8c2ca0c:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 52510647-7385-483d-bc2b-25bfeef9d253
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: c300b326-a40b-47c2-9d1f-b6ada7ce0aeb # Client
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ebb21c12-633a-4dbf-b51c-eb1b1a7960f4
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 5b488c3a-b807-486d-b8cc-5f3ae00a4331 # Work Category
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36c5bba7-8149-4ba1-b4b2-2cd2a5860f30
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 51be2c3b-61c8-483a-a6f2-5c3d28bf1b35 # Services
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0d3a74c-ecfa-4f61-8734-92a3ced394bf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 80e5bafb-adea-4755-8d9f-a957c111063f # Richtext (Minimal)
+            handle: description
+            instructions: null
+            label: Description
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7d0792d-077b-4a84-b540-8688fc050d87
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: be0b8859-ebca-4e6f-a733-3ca2d99f0823 # Credits
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43998b0b-6416-4a1d-85e9-b33e589738e8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4f41e2ba-3b70-42ff-b5e1-52ff2e319c14 # Related Works
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 51e8fe3c-7873-480d-a2d9-364b7f37e642
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: d58ecd8b-40b5-4527-af60-e7225aadefe6
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-09-02T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7b72ef98-e333-4844-92db-072d1cbd7e40 # Thumbnail
+            handle: null
+            instructions: null
+            label: __blank__
+            oldFieldUid: 7b72ef98-e333-4844-92db-072d1cbd7e40 # Thumbnail
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa772bc5-0ee6-41b5-a78a-bdd4f77f0a9f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Thumbnail
+        uid: bf6e2cf4-4b84-4901-90ba-53dc67d678a3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 1adcfabb-e17a-437d-a8f2-0befd7118906 # Blocks
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4638af85-dcfc-4776-aa91-1a7bbd956e45
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9f56deb3-835e-4c99-adff-3ca7d49ff7c8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a5ffc7e5-121e-4322-98b2-bc5ab27e5f02 # SEO
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 69684e48-1629-4f23-a8fa-cd8dd47d7b88
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 8114f0d4-e1f0-4975-8c88-0a469304eae8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e7e8ee26-a730-4131-b0b0-d5e0eed7a9fa # Org Schema
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80e83595-c18c-4ea7-a08e-b5b8f646031d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Org Schema'
+        uid: 76bf973d-6892-476e-af0f-a9d006055405
+        userCondition: null
+    thumbFieldKey: null
+handle: work
+hasTitleField: true
+icon: null
+name: Work
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

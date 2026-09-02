@@ -1,0 +1,74 @@
+allowLineBreaksInTitles: false
+color: orange
+description: null
+fieldLayouts:
+  c6e2c016-65fd-4b6a-a257-eb0ac292d5c2:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 09298ad7-065a-4110-a31c-e882db295087 # String
+            handle: role
+            instructions: null
+            label: Role
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 890a8543-ac35-40d1-8c61-9a9520dd0db0
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 09298ad7-065a-4110-a31c-e882db295087 # String
+            handle: name
+            instructions: null
+            label: Name
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4fe699da-fa29-4057-9a83-cc0a122d8101
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4ea61609-bde4-40e7-8cf5-12a8cb07bd7c # Link
+            handle: link
+            instructions: null
+            label: Link
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2587c88-e5bb-49cb-a9e8-761dc57b16f4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 46d5af09-8273-4a02-9873-13d34995457b
+        userCondition: null
+    thumbFieldKey: null
+handle: credit
+hasTitleField: false
+icon: null
+name: Credit
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: "{ role ? role ~ (name ? ': ' ~ name) : (name | default('Credit')) }"
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

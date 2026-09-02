@@ -1,0 +1,190 @@
+dateModified: 1788334527
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: '*'
+      page: Entries
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      defaultSort:
+        - title
+        - asc
+      defaultViewMode: ''
+      disabled: true
+      key: singles
+      page: Entries
+      tableAttributes:
+        - status
+        - link
+      type: native
+    -
+      heading: Options
+      key: 'heading:6ac504ba-c321-4325-930e-f2f5d3680122'
+      page: Entries
+      type: heading
+    -
+      condition:
+        class: craft\elements\conditions\entries\EntryCondition
+        conditionRules:
+          -
+            class: craft\elements\conditions\entries\SectionConditionRule
+            operator: in
+            uid: e00c1eab-01e9-4c25-9fbd-9234b8cb7078
+            values:
+              - 6d748250-5d35-4503-9f18-a175d611152c # Header
+        elementType: craft\elements\Entry
+        fieldContext: global
+      defaultSort:
+        - id
+        - asc
+      defaultViewMode: ''
+      key: 'custom:54baff37-4794-49b4-84af-ad1b59efa7e0'
+      label: Options
+      page: Entries
+      tableAttributes: '-'
+      type: custom
+    -
+      heading: Structures
+      key: 'heading:460b7583-8877-4898-8eef-e19bcf11e137'
+      page: Entries
+      type: heading
+    -
+      key: 'section:80d089ab-432c-4022-a8bb-6389bed4c95e' # Page
+      page: Entries
+      type: native
+    -
+      key: 'section:105659e8-6d0e-4387-9ba7-5c41bc21344f' # Work
+      page: Entries
+      type: native
+    -
+      key: 'section:2b5a8468-f61b-472b-9af7-8231dab67ab0' # Work Category
+      page: Entries
+      type: native
+    -
+      key: 'section:fb5e13ab-c97d-46d2-b656-961b182cfa70' # Service
+      page: Entries
+      type: native
+    -
+      key: 'section:04b6f137-04a3-4cd7-a0d3-d10bc18ebb58' # Client
+      page: Entries
+      type: native
+email:
+  fromEmail: polaccodaniele@gmail.com
+  fromName: $CRAFT_SITE_NAME
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  media:
+    hasUrls: true
+    name: Media
+    settings:
+      path: '@webroot/uploads/media'
+    type: craft\fs\Local
+    url: $CRAFT_BACKEND_URL/uploads/media
+meta:
+  __names__:
+    1adcfabb-e17a-437d-a8f2-0befd7118906: Blocks # Blocks
+    2ac6d8c8-e836-407c-ba99-1ddb8b3f9a42: 'Media (Multiple)' # Media (Multiple)
+    2b5a8468-f61b-472b-9af7-8231dab67ab0: 'Work Category' # Work Category
+    2bb851df-0e97-491d-9095-3d5530268ab1: 'Media Ratio Height' # Media Ratio Height
+    3a3b4d1d-7271-4531-a93d-ad7403191289: 'Public Schema' # Public Schema
+    3cd142ad-49e9-427e-87f7-b6f37e1af87a: Links # Links
+    3eda00f1-ab29-4f8e-8321-fb802df98249: 'Richtext (Simple)' # Richtext (Simple)
+    04b6f137-04a3-4cd7-a0d3-d10bc18ebb58: Client # Client
+    4ea61609-bde4-40e7-8cf5-12a8cb07bd7c: Link # Link
+    4f41e2ba-3b70-42ff-b5e1-52ff2e319c14: 'Related Works' # Related Works
+    5b488c3a-b807-486d-b8cc-5f3ae00a4331: 'Work Category' # Work Category
+    6d748250-5d35-4503-9f18-a175d611152c: Header # Header
+    7b72ef98-e333-4844-92db-072d1cbd7e40: Thumbnail # Thumbnail
+    7b145cb9-78e8-44c9-93e3-d1ffc8e90581: 'Work Category' # Work Category
+    8e2adce5-8a40-4a5e-a573-7cd9f245d935: 'Link Item' # Link Item
+    9f44c605-bfea-45da-8eee-d66afeb5789c: 'Column Block Media' # Column Block Media
+    14a47c2f-568c-4964-a133-c7f0fe3f44c2: 'Contact Form' # Contact Form
+    21b2d725-9bb6-4250-b763-933c2ad4db07: 'Media Gallery' # Media Gallery
+    48a32b36-242b-456d-94f5-087908123d76: 'Media Ratio Width' # Media Ratio Width
+    51be2c3b-61c8-483a-a6f2-5c3d28bf1b35: Services # Services
+    51c7ba89-28f0-4b94-a6b1-6d3412ace482: English # English
+    052a9d45-cfb8-42fd-907e-3d8c6a5af541: 'Column Blocks' # Column Blocks
+    80d089ab-432c-4022-a8bb-6389bed4c95e: Page # Page
+    80e5bafb-adea-4755-8d9f-a957c111063f: 'Richtext (Minimal)' # Richtext (Minimal)
+    81d180f2-14a4-4e2e-8ef0-1650f81a248a: Credit # Credit
+    417b2b4f-c3fa-4191-b673-4b615fd13cf1: 'Block Grid' # Block Grid
+    520f61ac-dd50-4d34-a214-8b64226d122a: 'Media Ratio' # Media Ratio
+    03416ebd-2063-4e77-93f0-24eae653f7fa: Date # Date
+    7979ba0b-7bd7-43d2-80e0-023e830fdd2a: 'Boolean (False)' # Boolean (False)
+    8716b7bb-1a55-4137-8831-856df421b6e3: 'Page Default' # Page Default
+    09298ad7-065a-4110-a31c-e882db295087: String # String
+    9814e748-8cbe-43be-8e44-ec97b2f431bc: New # New
+    9913e9a7-9f61-48e4-9148-5304679ebceb: DateTime # DateTime
+    69166bbc-3333-46f4-a682-b712a0e4449b: 'Media (Single)' # Media (Single)
+    86266eea-aa78-4ad3-98df-d7878d0f40ce: Service # Service
+    105659e8-6d0e-4387-9ba7-5c41bc21344f: Work # Work
+    64109075-7d35-428e-96ad-4c5e8631f3f4: Italiano # Italiano
+    a076f078-2739-4840-8245-5e0f696f5a80: 'Richtext (Default)' # Richtext (Default)
+    a5ffc7e5-121e-4322-98b2-bc5ab27e5f02: SEO # SEO
+    a7e7e560-d521-4234-943e-51c68b95fd19: 'String (No Translate)' # String (No Translate)
+    a29e85ea-f732-49eb-81ab-21dee970a70d: 'Block Text' # Block Text
+    a73e3646-094b-4190-b738-4b92d5ac9c8b: 'Column Block Text' # Column Block Text
+    aca48e26-bc6a-447c-bc26-6e4a5ab52c8f: Columns # Columns
+    b9288759-745b-463c-9055-d14d54e4187b: 'Media Orientation' # Media Orientation
+    bbe52cbf-36a0-4bd0-b11b-1f6d65894849: Media # Media
+    be0b8859-ebca-4e6f-a733-3ca2d99f0823: Credits # Credits
+    c254dc8a-356e-47cd-bf4d-29fd2f54607c: 'Link (No Label)' # Link (No Label)
+    c300b326-a40b-47c2-9d1f-b6ada7ce0aeb: Client # Client
+    cb7f0d48-ae98-4996-b575-2cc13de4ad53: Client # Client
+    cbe134b2-431b-4c7f-b1ed-f604ab07468e: 'Boolean (True)' # Boolean (True)
+    d5fb2889-bb87-4812-b41e-ed743e571c1d: Work # Work
+    d858881b-5b02-44b3-a35e-fa097566e273: 'Average Color' # Average Color
+    da43da82-2ba3-47a6-bb3f-a98feac55db8: Color # Color
+    dc3b347a-fc23-4941-828a-f44923516ffc: 'Block Media' # Block Media
+    e7e8ee26-a730-4131-b0b0-d5e0eed7a9fa: 'Org Schema' # Org Schema
+    f089cf90-4035-42b1-8af1-c323a5771f3c: 'Media Ratio (Landscape)' # Media Ratio (Landscape)
+    f3c778fb-f808-455e-a6dd-aa0a3856c3e7: 'Column Blocks' # Column Blocks
+    f44a589b-a775-4a7e-963a-5ba0d800ba68: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    f8825127-fc53-499c-a882-8ae7969e1c3f: Header # Header
+    fb5e13ab-c97d-46d2-b656-961b182cfa70: Service # Service
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.6.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  toolkit:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  video-dimensions-universal:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: $CRAFT_SITE_NAME
+  schemaVersion: 5.11.0.2
+  timeZone: America/Los_Angeles
+toolkit:
+  siteConfig:
+    latestSiteConfigUpdate: '2026-03-13T17:30:02+00:00'
+    siteName: null
+    siteUrl: null
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

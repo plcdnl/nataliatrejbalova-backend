@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: credits
+instructions: null
+name: Credits
+searchable: false
+settings:
+  createButtonLabel: 'New credit'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 81d180f2-14a4-4e2e-8ef0-1650f81a248a # Credit
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

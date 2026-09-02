@@ -1,0 +1,22 @@
+defaultPlacement: end
+enableVersioning: false
+entryTypes:
+  -
+    uid: cb7f0d48-ae98-4996-b575-2cc13de4ad53 # Client
+handle: client
+maxAuthors: 1
+minAuthors: 1
+name: Client
+propagationMethod: all
+siteSettings:
+  51c7ba89-28f0-4b94-a6b1-6d3412ace482: # English
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+  64109075-7d35-428e-96ad-4c5e8631f3f4: # Italiano
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel

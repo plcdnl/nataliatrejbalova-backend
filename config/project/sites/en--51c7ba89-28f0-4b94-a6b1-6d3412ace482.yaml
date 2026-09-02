@@ -1,0 +1,9 @@
+baseUrl: $CRAFT_FRONTEND_URL
+enabled: true
+handle: en
+hasUrls: true
+language: en
+name: English
+primary: true
+siteGroup: f44a589b-a775-4a7e-963a-5ba0d800ba68 # $CRAFT_SITE_NAME
+sortOrder: 1

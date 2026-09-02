@@ -1,0 +1,17 @@
+# Runtime directories — seeded empty at build time, populated via named volumes at runtime
+storage/*
+web/uploads/*
+
+# Local dev / environment files
+.env
+.env.*
+.git
+.gitignore
+.ddev
+.idea
+.DS_Store
+docker-compose.yaml
+README.md
+
+# Dependencies reinstalled by composer during build
+vendor

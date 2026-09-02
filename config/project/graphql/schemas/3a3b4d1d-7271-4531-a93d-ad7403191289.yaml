@@ -1,0 +1,24 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.51c7ba89-28f0-4b94-a6b1-6d3412ace482:read' # English
+  - 'sites.64109075-7d35-428e-96ad-4c5e8631f3f4:read' # Italiano
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.6d748250-5d35-4503-9f18-a175d611152c:read' # Header
+  - 'sections.04b6f137-04a3-4cd7-a0d3-d10bc18ebb58:read' # Client
+  - 'sections.80d089ab-432c-4022-a8bb-6389bed4c95e:read' # Page
+  - 'sections.fb5e13ab-c97d-46d2-b656-961b182cfa70:read' # Service
+  - 'sections.105659e8-6d0e-4387-9ba7-5c41bc21344f:read' # Work
+  - 'sections.2b5a8468-f61b-472b-9af7-8231dab67ab0:read' # Work Category
+  - 'nestedentryfields.a076f078-2739-4840-8245-5e0f696f5a80:read' # Richtext (Default)
+  - 'nestedentryfields.80e5bafb-adea-4755-8d9f-a957c111063f:read' # Richtext (Minimal)
+  - 'nestedentryfields.3eda00f1-ab29-4f8e-8321-fb802df98249:read' # Richtext (Simple)
+  - 'nestedentryfields.1adcfabb-e17a-437d-a8f2-0befd7118906:read' # Blocks
+  - 'nestedentryfields.f3c778fb-f808-455e-a6dd-aa0a3856c3e7:read' # Column Blocks
+  - 'nestedentryfields.aca48e26-bc6a-447c-bc26-6e4a5ab52c8f:read' # Columns
+  - 'nestedentryfields.be0b8859-ebca-4e6f-a733-3ca2d99f0823:read' # Credits
+  - 'nestedentryfields.3cd142ad-49e9-427e-87f7-b6f37e1af87a:read' # Links
+  - 'volumes.bbe52cbf-36a0-4bd0-b11b-1f6d65894849:read' # Media
+  - 'usergroups.solo:read'

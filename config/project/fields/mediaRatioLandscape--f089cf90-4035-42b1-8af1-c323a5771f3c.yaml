@@ -1,0 +1,110 @@
+columnSuffix: null
+handle: mediaRatioLandscape
+instructions: null
+name: 'Media Ratio (Landscape)'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Original
+        -
+          - value
+          - original
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="2" y="5" width="16" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Square
+        -
+          - value
+          - '1:1'
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="4" y="4" width="12" height="12" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '3:2'
+        -
+          - value
+          - '3:2'
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="2.5" y="5" width="15" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '5:4'
+        -
+          - value
+          - '5:4'
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="2.5" y="4" width="15" height="12" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '7:5'
+        -
+          - value
+          - '7:5'
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="3" y="5" width="14" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - '16:9'
+        -
+          - value
+          - '16:9'
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="2" y="5.5" width="16" height="9" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Freeform
+        -
+          - value
+          - freeform
+        -
+          - icon
+          - '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/></svg>'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

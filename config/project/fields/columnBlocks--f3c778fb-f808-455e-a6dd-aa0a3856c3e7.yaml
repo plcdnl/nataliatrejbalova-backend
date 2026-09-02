@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: columnBlocks
+instructions: null
+name: 'Column Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - a73e3646-094b-4190-b738-4b92d5ac9c8b # Column Block Text
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 9f44c605-bfea-45da-8eee-d66afeb5789c # Column Block Media
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
