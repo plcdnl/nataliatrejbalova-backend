@@ -19,11 +19,6 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: '{slug}'
-  64109075-7d35-428e-96ad-4c5e8631f3f4: # Italiano
-    enabledByDefault: true
-    hasUrls: true
-    template: null
-    uriFormat: '{slug}'
 structure:
   maxLevels: 1
   uid: 99ab5e87-ac00-4e7f-9268-f076eeabe233

@@ -19,9 +19,4 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: 'work/{slug}'
-  64109075-7d35-428e-96ad-4c5e8631f3f4: # Italiano
-    enabledByDefault: true
-    hasUrls: true
-    template: null
-    uriFormat: 'work/{slug}'
 type: channel

@@ -14,9 +14,4 @@ siteSettings:
     hasUrls: false
     template: null
     uriFormat: null
-  64109075-7d35-428e-96ad-4c5e8631f3f4: # Italiano
-    enabledByDefault: true
-    hasUrls: false
-    template: null
-    uriFormat: null
 type: channel

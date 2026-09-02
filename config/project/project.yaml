@@ -1,4 +1,4 @@
-dateModified: 1788357027
+dateModified: 1788357930
 elementSources:
   craft\elements\Entry:
     -
@@ -129,7 +129,6 @@ meta:
     69166bbc-3333-46f4-a682-b712a0e4449b: 'Media (Single)' # Media (Single)
     86266eea-aa78-4ad3-98df-d7878d0f40ce: Service # Service
     105659e8-6d0e-4387-9ba7-5c41bc21344f: Work # Work
-    64109075-7d35-428e-96ad-4c5e8631f3f4: Italiano # Italiano
     a076f078-2739-4840-8245-5e0f696f5a80: 'Richtext (Default)' # Richtext (Default)
     a5ffc7e5-121e-4322-98b2-bc5ab27e5f02: SEO # SEO
     a7e7e560-d521-4234-943e-51c68b95fd19: 'String (No Translate)' # String (No Translate)

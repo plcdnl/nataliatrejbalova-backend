@@ -1,5 +1,6 @@
 @import url('/fonts/suisse-intl/fonts.css');
 
+--ck-content-font-family: 'SuisseIntl', Arial, sans-serif;
 font-family: 'SuisseIntl', Arial, sans-serif;
 
 .text-cms-ink {

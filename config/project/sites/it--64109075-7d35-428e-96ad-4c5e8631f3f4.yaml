@@ -1,9 +1,0 @@
-baseUrl: $CRAFT_FRONTEND_URL/it
-enabled: '1'
-handle: it
-hasUrls: true
-language: it
-name: Italiano
-primary: false
-siteGroup: f44a589b-a775-4a7e-963a-5ba0d800ba68 # $CRAFT_SITE_NAME
-sortOrder: 2
