@@ -3,6 +3,8 @@ enableVersioning: true
 entryTypes:
   -
     uid: 8716b7bb-1a55-4137-8831-856df421b6e3 # Page Default
+  -
+    uid: e6bf7a3c-3bb6-46a5-97b7-378f19143806 # Page Archive
 handle: page
 maxAuthors: 1
 minAuthors: 1

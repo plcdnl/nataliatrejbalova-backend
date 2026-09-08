@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: archiveType
+instructions: null
+name: 'Archive Type'
+searchable: false
+settings:
+  customOptions: false
+  iconsOnly: false
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Works
+        -
+          - value
+          - works
+        -
+          - icon
+          - ''
+        -
+          - default
+          - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\ButtonGroup

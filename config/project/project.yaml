@@ -1,4 +1,4 @@
-dateModified: 1788359774
+dateModified: 1788862649
 elementSources:
   craft\elements\Entry:
     -
@@ -104,6 +104,7 @@ meta:
     3eda00f1-ab29-4f8e-8321-fb802df98249: 'Richtext (Simple)' # Richtext (Simple)
     04b6f137-04a3-4cd7-a0d3-d10bc18ebb58: Client # Client
     4c1e3d75-af27-403c-8b7c-a6a2f4babe36: 'Service Group' # Service Group
+    4c8abc7d-c15a-4207-b04b-1fa11ac1c838: 'Archive Type' # Archive Type
     4d4e989d-8050-4e38-8f2d-19ee0e5f97c3: Information # Information
     4ea61609-bde4-40e7-8cf5-12a8cb07bd7c: Link # Link
     4f41e2ba-3b70-42ff-b5e1-52ff2e319c14: 'Related Works' # Related Works
@@ -154,6 +155,7 @@ meta:
     da43da82-2ba3-47a6-bb3f-a98feac55db8: Color # Color
     dc3b347a-fc23-4941-828a-f44923516ffc: 'Block Media' # Block Media
     ddbe5081-9170-418f-9c3f-9c1e9113d393: Informations # Informations
+    e6bf7a3c-3bb6-46a5-97b7-378f19143806: 'Page Archive' # Page Archive
     e7e8ee26-a730-4131-b0b0-d5e0eed7a9fa: 'Org Schema' # Org Schema
     f089cf90-4035-42b1-8af1-c323a5771f3c: 'Media Ratio (Landscape)' # Media Ratio (Landscape)
     f3c778fb-f808-455e-a6dd-aa0a3856c3e7: 'Column Blocks' # Column Blocks
