@@ -20,14 +20,14 @@ settings:
       __assoc__:
         -
           - key
-          - '1'
+          - tcq
         -
           - locked
           - '0'
         -
           - template
-          - '{title} - {{ currentSite.group.name }}'
+          - '{ title } - {{ currentSite.group.name }}'
   titleSuffix: null
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: ether\seo\fields\SeoField
