@@ -161,6 +161,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2026-09-20T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 2d8be125-a0fd-47e8-ae42-b2ed9a19766a # Work Tags
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7949c487-2156-4d47-8d6a-6893682365ad
+            userCondition: null
+            warning: null
+            width: 100
         name: Thumbnail
         uid: bf6e2cf4-4b84-4901-90ba-53dc67d678a3
         userCondition: null

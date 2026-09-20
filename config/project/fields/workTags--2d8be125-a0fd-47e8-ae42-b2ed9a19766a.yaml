@@ -1,0 +1,40 @@
+columnSuffix: null
+handle: workTags
+instructions: 'Badges shown on the project thumbnail.'
+name: 'Work Tags'
+searchable: false
+settings:
+  addRowLabel: 'Add a tag'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Label
+            -
+              - handle
+              - label
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - rowId
+          - 3f0c6f4e-6a54-4f38-9d0c-2c6a1e5b7d21
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Table

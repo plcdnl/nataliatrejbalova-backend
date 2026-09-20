@@ -1,4 +1,4 @@
-dateModified: 1788870928
+dateModified: 1789910665
 elementSources:
   craft\elements\Entry:
     -
@@ -98,6 +98,7 @@ meta:
     2ac6d8c8-e836-407c-ba99-1ddb8b3f9a42: 'Media (Multiple)' # Media (Multiple)
     2b5a8468-f61b-472b-9af7-8231dab67ab0: 'Work Category' # Work Category
     2bb851df-0e97-491d-9095-3d5530268ab1: 'Media Ratio Height' # Media Ratio Height
+    2d8be125-a0fd-47e8-ae42-b2ed9a19766a: 'Work Tags' # Work Tags
     3a3b4d1d-7271-4531-a93d-ad7403191289: 'Public Schema' # Public Schema
     3bd4eb51-c06b-4920-88ba-e4732360f872: About # About
     3cd142ad-49e9-427e-87f7-b6f37e1af87a: Links # Links
