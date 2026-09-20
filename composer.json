@@ -3,7 +3,7 @@
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "^5.7.0",
-    "craftcms/cms": "^5.11.1",
+    "craftcms/cms": "^5.11.3",
     "ether/seo": "^5.0.0",
     "rondodevs/craft-toolkit": "^0.0.10",
     "vlucas/phpdotenv": "^5.4.0",
