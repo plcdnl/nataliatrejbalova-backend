@@ -17,7 +17,7 @@ fieldLayouts:
             handle: heading
             instructions: null
             label: Heading
-            oldFieldUid: 80e5bafb-adea-4755-8d9f-a957c111063f # Richtext (Minimal)
+            oldFieldUid: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -83,19 +83,19 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2026-09-02T14:23:07+00:00'
+            dateAdded: '2026-09-28T09:55:39+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 3eda00f1-ab29-4f8e-8321-fb802df98249 # Richtext (Simple)
-            handle: additionalInformations
+            fieldUid: 6d71f35e-797f-4b8f-b3c9-a9507e43221d # Additional Informations
+            handle: null
             instructions: null
-            label: 'Additional Informations'
-            oldFieldUid: null
+            label: null
+            oldFieldUid: 6d71f35e-797f-4b8f-b3c9-a9507e43221d # Additional Informations
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c2340942-ab7f-4543-92e4-9ab84022c087
+            uid: 579cd30e-0354-4c56-a911-ec959666de21
             userCondition: null
             warning: null
             width: 100

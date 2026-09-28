@@ -1,4 +1,4 @@
-dateModified: 1789910665
+dateModified: 1790589339
 elementSources:
   craft\elements\Entry:
     -
@@ -110,6 +110,7 @@ meta:
     4ea61609-bde4-40e7-8cf5-12a8cb07bd7c: Link # Link
     4f41e2ba-3b70-42ff-b5e1-52ff2e319c14: 'Related Works' # Related Works
     5b488c3a-b807-486d-b8cc-5f3ae00a4331: 'Work Category' # Work Category
+    6d71f35e-797f-4b8f-b3c9-a9507e43221d: 'Additional Informations' # Additional Informations
     6d748250-5d35-4503-9f18-a175d611152c: Header # Header
     7b72ef98-e333-4844-92db-072d1cbd7e40: Thumbnail # Thumbnail
     7b145cb9-78e8-44c9-93e3-d1ffc8e90581: 'Work Category' # Work Category
@@ -158,6 +159,7 @@ meta:
     ddbe5081-9170-418f-9c3f-9c1e9113d393: Informations # Informations
     e6bf7a3c-3bb6-46a5-97b7-378f19143806: 'Page Archive' # Page Archive
     e7e8ee26-a730-4131-b0b0-d5e0eed7a9fa: 'Org Schema' # Org Schema
+    efe7a91a-3095-4353-8e76-7c61e485847c: 'Information hvhapq' # Information hvhapq
     f089cf90-4035-42b1-8af1-c323a5771f3c: 'Media Ratio (Landscape)' # Media Ratio (Landscape)
     f3c778fb-f808-455e-a6dd-aa0a3856c3e7: 'Column Blocks' # Column Blocks
     f44a589b-a775-4a7e-963a-5ba0d800ba68: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
@@ -168,6 +170,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 5.6.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   seo:
     edition: standard
     enabled: true

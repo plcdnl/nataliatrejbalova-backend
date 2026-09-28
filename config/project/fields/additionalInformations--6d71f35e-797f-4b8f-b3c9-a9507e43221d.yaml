@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: additionalInformations
+instructions: null
+name: 'Additional Informations'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - efe7a91a-3095-4353-8e76-7c61e485847c # Information hvhapq
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -6,6 +6,7 @@
     "craftcms/cms": "^5.11.3",
     "ether/seo": "^5.0.0",
     "rondodevs/craft-toolkit": "^0.0.10",
+    "verbb/field-manager": "^4.0.6",
     "vlucas/phpdotenv": "^5.4.0",
     "ynmstudio/craft-video-dimensions-universal": "^1.2.0"
   },

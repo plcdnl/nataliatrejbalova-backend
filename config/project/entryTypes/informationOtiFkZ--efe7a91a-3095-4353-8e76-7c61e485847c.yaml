@@ -1,0 +1,71 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  f95888b5-a9ad-4a7a-ba51-ccdf6675ab34:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-09-02T14:22:28+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fb9862c0-4af4-471a-8d02-670be790b9ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-09-02T14:24:06+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4ea61609-bde4-40e7-8cf5-12a8cb07bd7c # Link
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc98447d-d0da-4c5e-91a2-5570ae2cfba4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 509568b7-2bb6-4456-99be-856e89288a55
+        userCondition: null
+    thumbFieldKey: null
+handle: informationOtiFkZ
+hasTitleField: true
+icon: null
+name: 'Information hvhapq'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
