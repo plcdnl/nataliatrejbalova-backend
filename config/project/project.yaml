@@ -1,4 +1,4 @@
-dateModified: 1790589339
+dateModified: 1790590138
 elementSources:
   craft\elements\Entry:
     -
@@ -159,7 +159,6 @@ meta:
     ddbe5081-9170-418f-9c3f-9c1e9113d393: Informations # Informations
     e6bf7a3c-3bb6-46a5-97b7-378f19143806: 'Page Archive' # Page Archive
     e7e8ee26-a730-4131-b0b0-d5e0eed7a9fa: 'Org Schema' # Org Schema
-    efe7a91a-3095-4353-8e76-7c61e485847c: 'Information hvhapq' # Information hvhapq
     f089cf90-4035-42b1-8af1-c323a5771f3c: 'Media Ratio (Landscape)' # Media Ratio (Landscape)
     f3c778fb-f808-455e-a6dd-aa0a3856c3e7: 'Column Blocks' # Column Blocks
     f44a589b-a775-4a7e-963a-5ba0d800ba68: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
