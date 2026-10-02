@@ -53,6 +53,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2026-10-02T12:36:07+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 5b488c3a-b807-486d-b8cc-5f3ae00a4331 # Project Category
+            handle: null
+            instructions: 'Optional. Show only projects in the selected categories. Leave empty to show all projects.'
+            label: Categories
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43cf7712-3f53-4735-99ce-9b8840917209
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: c7adac5f-31b9-451e-999f-a7fb91bcf765
         userCondition: null
