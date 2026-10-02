@@ -1,43 +1,43 @@
 allowLineBreaksInTitles: false
-color: orange
+color: null
 description: null
 fieldLayouts:
-  08c0e0c8-a066-433b-9392-bb800365cd16:
+  5af100d6-f45a-43ee-9ab0-2d3712508b1f:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2026-06-17T10:33:06+00:00'
+            dateAdded: '2026-10-02T17:45:16+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 3cd142ad-49e9-427e-87f7-b6f37e1af87a # Links
-            handle: null
+            fieldUid: 69166bbc-3333-46f4-a682-b712a0e4449b # Media (Single)
+            handle: media
             instructions: null
-            label: null
-            oldFieldUid: null
+            label: Media
+            oldFieldUid: 69166bbc-3333-46f4-a682-b712a0e4449b # Media (Single)
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ba51eda8-f4e2-4238-9771-24e623bb067d
+            uid: 87ff15f7-e245-463b-9ffd-36a5184965fa
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 4a505884-245d-4c2f-82da-22374cac82fd
+        uid: 57367cfc-3149-498b-8aa6-44e387947a30
         userCondition: null
     thumbFieldKey: null
-handle: header
+handle: splashscreen
 hasTitleField: false
 icon: null
-name: Header
+name: Splashscreen
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: Header
+titleFormat: Splashscreen
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 uiLabelFormat: '{title}'

@@ -1,4 +1,4 @@
-dateModified: 1790944568
+dateModified: 1790963166
 elementSources:
   craft\elements\Entry:
     -
@@ -6,7 +6,7 @@ elementSources:
         - postDate
         - desc
       defaultViewMode: ''
-      disabled: false
+      disabled: true
       key: '*'
       page: Entries
       tableAttributes:
@@ -42,7 +42,8 @@ elementSources:
             operator: in
             uid: e00c1eab-01e9-4c25-9fbd-9234b8cb7078
             values:
-              - 34bf9cd6-a809-4562-9bf0-b3aabfd7e0f0
+              - 6d748250-5d35-4503-9f18-a175d611152c # Header
+              - 70cdfb93-a7a7-4975-b1e6-fe26a916fa71 # Splashscreen
         elementType: craft\elements\Entry
         fieldContext: global
       defaultSort:
@@ -127,9 +128,11 @@ meta:
     48a32b36-242b-456d-94f5-087908123d76: 'Media Ratio Width' # Media Ratio Width
     51c7ba89-28f0-4b94-a6b1-6d3412ace482: English # English
     052a9d45-cfb8-42fd-907e-3d8c6a5af541: 'Column Blocks' # Column Blocks
+    70cdfb93-a7a7-4975-b1e6-fe26a916fa71: Splashscreen # Splashscreen
     80d089ab-432c-4022-a8bb-6389bed4c95e: Page # Page
     80e5bafb-adea-4755-8d9f-a957c111063f: 'Richtext (Minimal)' # Richtext (Minimal)
     81d180f2-14a4-4e2e-8ef0-1650f81a248a: Credit # Credit
+    214de77c-e88f-4d08-9660-7d8b3a6ab1a3: Splashscreen # Splashscreen
     417b2b4f-c3fa-4191-b673-4b615fd13cf1: 'Block Grid' # Block Grid
     520f61ac-dd50-4d34-a214-8b64226d122a: 'Media Ratio' # Media Ratio
     03416ebd-2063-4e77-93f0-24eae653f7fa: Date # Date

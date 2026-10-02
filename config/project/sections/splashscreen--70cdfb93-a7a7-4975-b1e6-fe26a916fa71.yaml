@@ -1,0 +1,22 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 214de77c-e88f-4d08-9660-7d8b3a6ab1a3 # Splashscreen
+handle: splashscreen
+maxAuthors: 1
+minAuthors: 1
+name: Splashscreen
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  51c7ba89-28f0-4b94-a6b1-6d3412ace482: # English
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single
