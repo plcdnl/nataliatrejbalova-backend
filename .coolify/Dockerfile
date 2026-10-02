@@ -86,6 +86,9 @@ ENV PHP_MAX_INPUT_VARS=5000
 # nginx deve puntare allo stesso indirizzo, altrimenti prova "localhost:9000"
 # in eterno e nginx non parte mai.
 ENV FCGI_CONNECT=/run/php-fpm.sock
+# La coda la consuma solo il container "worker": senza questo anche il CP la
+# lancerebbe via HTTP, con job concorrenti sulle stesse righe (es. searchindex).
+ENV CRAFT_RUN_QUEUE_AUTOMATICALLY=false
 
 USER root
 

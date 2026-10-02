@@ -9,6 +9,7 @@ services:
         - php_version=8.4
     environment:
       CRAFT_BACKEND_URL: ${CRAFT_BACKEND_URL:-${SERVICE_URL_WEB}}
+      CRAFT_SECURITY_KEY: ${CRAFT_SECURITY_KEY:-${SERVICE_PASSWORD_64_CRAFTKEY}}
     volumes:
       - uploads_data:/app/web/uploads
       - storage_data:/app/storage
@@ -28,6 +29,8 @@ services:
       args:
         - php_version=8.4
     restart: unless-stopped
+    environment:
+      CRAFT_SECURITY_KEY: ${CRAFT_SECURITY_KEY:-${SERVICE_PASSWORD_64_CRAFTKEY}}
     volumes:
       - uploads_data:/app/web/uploads
       - storage_data:/app/storage
