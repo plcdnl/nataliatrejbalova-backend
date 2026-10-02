@@ -1,4 +1,4 @@
-dateModified: 1790923787
+dateModified: 1790924108
 elementSources:
   craft\elements\Entry:
     -
@@ -55,7 +55,7 @@ elementSources:
       tableAttributes: '-'
       type: custom
     -
-      heading: Structures
+      heading: Pages
       key: 'heading:460b7583-8877-4898-8eef-e19bcf11e137'
       page: Entries
       type: heading
@@ -64,19 +64,26 @@ elementSources:
       page: Entries
       type: native
     -
+      heading: Projects
+      key: 'heading:b8942a42-762e-4d29-b4a2-3fe9f03b2e95'
+      page: Entries
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
       key: 'section:105659e8-6d0e-4387-9ba7-5c41bc21344f' # Project
       page: Entries
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
       type: native
     -
       key: 'section:2b5a8468-f61b-472b-9af7-8231dab67ab0' # Project Category
-      page: Entries
-      type: native
-    -
-      key: 'section:fb5e13ab-c97d-46d2-b656-961b182cfa70'
-      page: Entries
-      type: native
-    -
-      key: 'section:04b6f137-04a3-4cd7-a0d3-d10bc18ebb58'
       page: Entries
       type: native
 email:
