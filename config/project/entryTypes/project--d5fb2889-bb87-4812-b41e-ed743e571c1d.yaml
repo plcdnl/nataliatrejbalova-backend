@@ -41,23 +41,6 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 80e5bafb-adea-4755-8d9f-a957c111063f # Richtext (Minimal)
-            handle: description
-            instructions: null
-            label: Description
-            oldFieldUid: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e7d0792d-077b-4a84-b540-8688fc050d87
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2026-07-30T00:00:00+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
             fieldUid: 5b488c3a-b807-486d-b8cc-5f3ae00a4331 # Project Category
             handle: null
             instructions: null
@@ -70,6 +53,40 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 50
+          -
+            dateAdded: '2026-10-02T17:54:18+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 03416ebd-2063-4e77-93f0-24eae653f7fa # Date
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4e984a43-ff9e-4adf-ae0a-785dc1cb52c1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-07-30T00:00:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 80e5bafb-adea-4755-8d9f-a957c111063f # Richtext (Minimal)
+            handle: description
+            instructions: null
+            label: Description
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7d0792d-077b-4a84-b540-8688fc050d87
+            userCondition: null
+            warning: null
+            width: 100
           -
             dateAdded: '2026-07-30T00:00:00+00:00'
             editCondition: null

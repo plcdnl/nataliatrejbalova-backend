@@ -17,7 +17,7 @@ fieldLayouts:
             handle: media
             instructions: null
             label: Media
-            oldFieldUid: 69166bbc-3333-46f4-a682-b712a0e4449b # Media (Single)
+            oldFieldUid: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -27,6 +27,29 @@ fieldLayouts:
             width: 100
         name: Content
         uid: 57367cfc-3149-498b-8aa6-44e387947a30
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-10-02T17:56:34+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: a5ffc7e5-121e-4322-98b2-bc5ab27e5f02 # SEO
+            handle: null
+            instructions: null
+            label: null
+            oldFieldUid: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: efbd5f8f-8aa3-4bde-ba34-f009765606fa
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: fb93893a-d25f-4fc2-be26-e900e8963af4
         userCondition: null
     thumbFieldKey: null
 handle: splashscreen
