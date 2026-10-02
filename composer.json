@@ -2,11 +2,11 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "^5.7.0",
-    "craftcms/cms": "^5.11.3",
+    "craftcms/ckeditor": "^5.8.0",
+    "craftcms/cms": "^5.11.4",
     "ether/seo": "^5.0.0",
     "rondodevs/craft-toolkit": "^0.0.10",
-    "verbb/field-manager": "^4.0.6",
+    "verbb/field-manager": "^4.0.7",
     "vlucas/phpdotenv": "^5.4.0",
     "ynmstudio/craft-video-dimensions-universal": "^1.2.0"
   },
