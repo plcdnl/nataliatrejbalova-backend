@@ -40,10 +40,10 @@ fieldLayouts:
         uid: e41c13ca-7d78-456c-a3d3-028f45f184ac
         userCondition: null
     thumbFieldKey: null
-handle: workCategory
+handle: projectCategory
 hasTitleField: true
 icon: null
-name: 'Work Category'
+name: 'Project Category'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

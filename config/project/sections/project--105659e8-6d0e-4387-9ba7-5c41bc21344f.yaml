@@ -2,11 +2,11 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: d5fb2889-bb87-4812-b41e-ed743e571c1d # Work
-handle: work
+    uid: d5fb2889-bb87-4812-b41e-ed743e571c1d # Project
+handle: project
 maxAuthors: 1
 minAuthors: 1
-name: Work
+name: Project
 previewTargets:
   -
     label: 'Primary entry page'
@@ -18,5 +18,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'work/{slug}'
+    uriFormat: 'project/{slug}'
 type: channel

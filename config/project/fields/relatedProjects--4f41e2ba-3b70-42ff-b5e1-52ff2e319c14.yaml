@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: relatedWorks
+handle: relatedProjects
 instructions: null
-name: 'Related Works'
+name: 'Related Projects'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -16,7 +16,7 @@ settings:
   showUnpermittedEntries: false
   showUnpermittedSections: false
   sources:
-    - 'section:105659e8-6d0e-4387-9ba7-5c41bc21344f' # Work
+    - 'section:105659e8-6d0e-4387-9ba7-5c41bc21344f' # Project
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

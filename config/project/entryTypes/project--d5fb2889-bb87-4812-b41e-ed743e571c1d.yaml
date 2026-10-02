@@ -58,7 +58,7 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 5b488c3a-b807-486d-b8cc-5f3ae00a4331 # Work Category
+            fieldUid: 5b488c3a-b807-486d-b8cc-5f3ae00a4331 # Project Category
             handle: null
             instructions: null
             label: null
@@ -75,7 +75,7 @@ fieldLayouts:
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: 4f41e2ba-3b70-42ff-b5e1-52ff2e319c14 # Related Works
+            fieldUid: 4f41e2ba-3b70-42ff-b5e1-52ff2e319c14 # Related Projects
             handle: null
             instructions: null
             label: null
@@ -160,10 +160,10 @@ fieldLayouts:
         uid: 76bf973d-6892-476e-af0f-a9d006055405
         userCondition: null
     thumbFieldKey: null
-handle: work
+handle: project
 hasTitleField: true
 icon: null
-name: Work
+name: Project
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

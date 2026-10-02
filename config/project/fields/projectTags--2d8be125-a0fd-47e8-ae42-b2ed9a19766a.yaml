@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: workTags
+handle: projectTags
 instructions: 'Badges shown on the project thumbnail.'
-name: 'Work Tags'
+name: 'Project Tags'
 searchable: false
 settings:
   addRowLabel: 'Add a tag'

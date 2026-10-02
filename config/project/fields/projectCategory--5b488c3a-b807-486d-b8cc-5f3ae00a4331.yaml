@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: workCategory
+handle: projectCategory
 instructions: null
-name: 'Work Category'
+name: 'Project Category'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -16,7 +16,7 @@ settings:
   showUnpermittedEntries: false
   showUnpermittedSections: false
   sources:
-    - 'section:2b5a8468-f61b-472b-9af7-8231dab67ab0' # Work Category
+    - 'section:2b5a8468-f61b-472b-9af7-8231dab67ab0' # Project Category
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

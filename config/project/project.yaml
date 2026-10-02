@@ -1,4 +1,4 @@
-dateModified: 1790921608
+dateModified: 1790923787
 elementSources:
   craft\elements\Entry:
     -
@@ -42,7 +42,7 @@ elementSources:
             operator: in
             uid: e00c1eab-01e9-4c25-9fbd-9234b8cb7078
             values:
-              - 34bf9cd6-a809-4562-9bf0-b3aabfd7e0f0 # About
+              - 34bf9cd6-a809-4562-9bf0-b3aabfd7e0f0
         elementType: craft\elements\Entry
         fieldContext: global
       defaultSort:
@@ -64,19 +64,19 @@ elementSources:
       page: Entries
       type: native
     -
-      key: 'section:105659e8-6d0e-4387-9ba7-5c41bc21344f' # Work
+      key: 'section:105659e8-6d0e-4387-9ba7-5c41bc21344f' # Project
       page: Entries
       type: native
     -
-      key: 'section:2b5a8468-f61b-472b-9af7-8231dab67ab0' # Work Category
+      key: 'section:2b5a8468-f61b-472b-9af7-8231dab67ab0' # Project Category
       page: Entries
       type: native
     -
-      key: 'section:fb5e13ab-c97d-46d2-b656-961b182cfa70' # Service
+      key: 'section:fb5e13ab-c97d-46d2-b656-961b182cfa70'
       page: Entries
       type: native
     -
-      key: 'section:04b6f137-04a3-4cd7-a0d3-d10bc18ebb58' # Client
+      key: 'section:04b6f137-04a3-4cd7-a0d3-d10bc18ebb58'
       page: Entries
       type: native
 email:
@@ -96,29 +96,27 @@ meta:
     1adcfabb-e17a-437d-a8f2-0befd7118906: Blocks # Blocks
     1ba374c3-4b7e-4d95-a29d-e768d65c8bc9: 'Service Groups' # Service Groups
     2ac6d8c8-e836-407c-ba99-1ddb8b3f9a42: 'Media (Multiple)' # Media (Multiple)
-    2b5a8468-f61b-472b-9af7-8231dab67ab0: 'Work Category' # Work Category
+    2b5a8468-f61b-472b-9af7-8231dab67ab0: 'Project Category' # Project Category
     2bb851df-0e97-491d-9095-3d5530268ab1: 'Media Ratio Height' # Media Ratio Height
-    2d8be125-a0fd-47e8-ae42-b2ed9a19766a: 'Work Tags' # Work Tags
+    2d8be125-a0fd-47e8-ae42-b2ed9a19766a: 'Project Tags' # Project Tags
     3a3b4d1d-7271-4531-a93d-ad7403191289: 'Public Schema' # Public Schema
     3bd4eb51-c06b-4920-88ba-e4732360f872: About # About
     3cd142ad-49e9-427e-87f7-b6f37e1af87a: Links # Links
     3eda00f1-ab29-4f8e-8321-fb802df98249: 'Richtext (Simple)' # Richtext (Simple)
-    04b6f137-04a3-4cd7-a0d3-d10bc18ebb58: Client # Client
     4c1e3d75-af27-403c-8b7c-a6a2f4babe36: 'Service Group' # Service Group
     4c8abc7d-c15a-4207-b04b-1fa11ac1c838: 'Archive Type' # Archive Type
     4d4e989d-8050-4e38-8f2d-19ee0e5f97c3: Information # Information
     4ea61609-bde4-40e7-8cf5-12a8cb07bd7c: Link # Link
-    4f41e2ba-3b70-42ff-b5e1-52ff2e319c14: 'Related Works' # Related Works
-    5b488c3a-b807-486d-b8cc-5f3ae00a4331: 'Work Category' # Work Category
+    4f41e2ba-3b70-42ff-b5e1-52ff2e319c14: 'Related Projects' # Related Projects
+    5b488c3a-b807-486d-b8cc-5f3ae00a4331: 'Project Category' # Project Category
     6d71f35e-797f-4b8f-b3c9-a9507e43221d: 'Additional Informations' # Additional Informations
     6d748250-5d35-4503-9f18-a175d611152c: Header # Header
     7b72ef98-e333-4844-92db-072d1cbd7e40: Thumbnail # Thumbnail
-    7b145cb9-78e8-44c9-93e3-d1ffc8e90581: 'Work Category' # Work Category
+    7b145cb9-78e8-44c9-93e3-d1ffc8e90581: 'Project Category' # Project Category
     8e2adce5-8a40-4a5e-a573-7cd9f245d935: 'Link Item' # Link Item
     9f44c605-bfea-45da-8eee-d66afeb5789c: 'Column Block Media' # Column Block Media
     14a47c2f-568c-4964-a133-c7f0fe3f44c2: 'Contact Form' # Contact Form
     21b2d725-9bb6-4250-b763-933c2ad4db07: 'Media Gallery' # Media Gallery
-    34bf9cd6-a809-4562-9bf0-b3aabfd7e0f0: About # About
     48a32b36-242b-456d-94f5-087908123d76: 'Media Ratio Width' # Media Ratio Width
     51c7ba89-28f0-4b94-a6b1-6d3412ace482: English # English
     052a9d45-cfb8-42fd-907e-3d8c6a5af541: 'Column Blocks' # Column Blocks
@@ -135,7 +133,7 @@ meta:
     9913e9a7-9f61-48e4-9148-5304679ebceb: DateTime # DateTime
     69166bbc-3333-46f4-a682-b712a0e4449b: 'Media (Single)' # Media (Single)
     86266eea-aa78-4ad3-98df-d7878d0f40ce: Service # Service
-    105659e8-6d0e-4387-9ba7-5c41bc21344f: Work # Work
+    105659e8-6d0e-4387-9ba7-5c41bc21344f: Project # Project
     15480826-96ee-452c-9edc-5dc2312e4c86: 'Service Group Item' # Service Group Item
     a076f078-2739-4840-8245-5e0f696f5a80: 'Richtext (Default)' # Richtext (Default)
     a5ffc7e5-121e-4322-98b2-bc5ab27e5f02: SEO # SEO
@@ -150,7 +148,7 @@ meta:
     c254dc8a-356e-47cd-bf4d-29fd2f54607c: 'Link (No Label)' # Link (No Label)
     cb7f0d48-ae98-4996-b575-2cc13de4ad53: Client # Client
     cbe134b2-431b-4c7f-b1ed-f604ab07468e: 'Boolean (True)' # Boolean (True)
-    d5fb2889-bb87-4812-b41e-ed743e571c1d: Work # Work
+    d5fb2889-bb87-4812-b41e-ed743e571c1d: Project # Project
     d858881b-5b02-44b3-a35e-fa097566e273: 'Average Color' # Average Color
     da43da82-2ba3-47a6-bb3f-a98feac55db8: Color # Color
     dc3b347a-fc23-4941-828a-f44923516ffc: 'Block Media' # Block Media
@@ -161,7 +159,6 @@ meta:
     f3c778fb-f808-455e-a6dd-aa0a3856c3e7: 'Column Blocks' # Column Blocks
     f44a589b-a775-4a7e-963a-5ba0d800ba68: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
     f8825127-fc53-499c-a882-8ae7969e1c3f: Header # Header
-    fb5e13ab-c97d-46d2-b656-961b182cfa70: Service # Service
 plugins:
   ckeditor:
     edition: standard
