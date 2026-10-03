@@ -10,7 +10,7 @@ settings:
   availableVolumes: ''
   characterLimit: null
   css: null
-  cssFile: ckeditor-richtext.css
+  cssFile: null
   defaultTransform: null
   defaultUploadLocationSubpath: null
   defaultUploadLocationVolume: null
@@ -25,7 +25,7 @@ settings:
   imageEntryTypeUid: null
   imageFieldUid: null
   imageMode: img
-  js: "return {\r\n  style: {\r\n    definitions: [\r\n      {\r\n        name: 'Testo Ink',\r\n        element: 'span',\r\n        classes: ['text-cms-ink'],\r\n      },\r\n      {\r\n        name: 'Testo Ink 10%',\r\n        element: 'span',\r\n        classes: ['text-cms-ink-10'],\r\n      },\r\n    ],\r\n  },\r\n};"
+  js: null
   jsFile: null
   options: null
   parseEmbeds: false
@@ -37,15 +37,11 @@ settings:
   sourceEditingGroups:
     - __ADMINS__
   toolbar:
-    - heading
-    - '|'
+    - alignment
     - bold
     - italic
     - link
-    - '|'
-    - alignment
-    - style
   wordLimit: null
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: craft\ckeditor\Field
