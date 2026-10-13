@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66db7d19d86e1256a95c3359274dfe25",
+    "content-hash": "d3782f816fca6159baf15c292eab49c8",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4437,16 +4437,16 @@
         },
         {
             "name": "rondodevs/craft-toolkit",
-            "version": "v0.0.11",
+            "version": "v0.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rondodevs/craft-toolkit.git",
-                "reference": "b555db3c2b7d4fb028f54d86e97f1c40cd6b2ea9"
+                "reference": "14bbf8652b236bcfbad13bfbeebfcbbe99fa559f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rondodevs/craft-toolkit/zipball/b555db3c2b7d4fb028f54d86e97f1c40cd6b2ea9",
-                "reference": "b555db3c2b7d4fb028f54d86e97f1c40cd6b2ea9",
+                "url": "https://api.github.com/repos/rondodevs/craft-toolkit/zipball/14bbf8652b236bcfbad13bfbeebfcbbe99fa559f",
+                "reference": "14bbf8652b236bcfbad13bfbeebfcbbe99fa559f",
                 "shasum": ""
             },
             "require": {
@@ -4488,9 +4488,9 @@
             "support": {
                 "docs": "https://github.com/rondodevs/craft-toolkit/blob/main/README.md",
                 "issues": "https://github.com/rondodevs/craft-toolkit/issues",
-                "source": "https://github.com/rondodevs/craft-toolkit/tree/v0.0.11"
+                "source": "https://github.com/rondodevs/craft-toolkit/tree/v0.0.12"
             },
-            "time": "2026-10-11T22:24:15+00:00"
+            "time": "2026-10-13T09:49:48+00:00"
         },
         {
             "name": "samdark/yii2-psr-log-target",
