@@ -7,6 +7,7 @@ services:
       target: web
       args:
         - php_version=8.4
+        - base_date=${APP_BASE_DATE:-latest}
     environment:
       CRAFT_BACKEND_URL: ${CRAFT_BACKEND_URL:-${SERVICE_URL_WEB}}
       CRAFT_SECURITY_KEY: ${CRAFT_SECURITY_KEY:-${SERVICE_PASSWORD_64_CRAFTKEY}}
@@ -28,6 +29,7 @@ services:
       target: worker
       args:
         - php_version=8.4
+        - base_date=${APP_BASE_DATE:-latest}
     restart: unless-stopped
     environment:
       CRAFT_SECURITY_KEY: ${CRAFT_SECURITY_KEY:-${SERVICE_PASSWORD_64_CRAFTKEY}}
